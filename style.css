@@ -1,0 +1,142 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(16, 16, 19)!important;
+}
+.home{
+   
+    background-position: center;
+  background-size: cover;
+  background-attachment: fixed!important;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.heading{
+    color: #cfcfd0;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.but{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 35px;
+    margin-right: 40px;
+    margin-bottom:20px ;
+    font-weight: 800;    
+    background-color: rgb(0, 0, 0, 0.6);
+    color: rgb(220, 220, 220);
+    box-shadow:  5px 8px 10px rgba(0, 0, 0, 1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;}
+
+.but:hover{
+        font-size: 39px;
+        text-decoration: none;
+        color: rgb(220, 220, 220);
+    }
+@media only screen and (max-width: 600px) {
+    .but{
+        font-size: 20px;
+        padding: 5px 10px 5px 10px;
+        margin-right: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .but{
+        font-size: 10px;
+    }
+  }
+  .col-xl-3,.col-xl-8, .col-xl-4, .col-md-12, .col-lg-6, .col-lg-2, .col-xl-2{
+padding: 0px!important;
+}
+.card{
+transition: all 0.5s ease 0s;
+background-color: #e9e9e9!important;
+}
+.card:hover{
+box-shadow:  2px 4px 5px rgb(92, 92, 92);
+transform: translateY(-15px);
+}
+.cardmember img{
+  border-radius: 50%;
+  padding: 15px 15px 0px 15px;
+}
+.socialicons{
+justify-content: center;}
+.socialicons a{
+margin-right: 20px;
+transition: all 1s ease-in-out;
+}
+.socialicons a:hover{
+  transform: translateY(-5px);
+
+  }
+::-webkit-scrollbar {
+width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #cfcfd0;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+background:rgb(67, 67, 70);
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: rgb(16, 16, 19);
+}
+.footer{
+background-color: black;
+}
+.footer p{
+color: #cfcfd0;
+font-size: 20px;
+text-align: center;
+padding-top: 10px; 
+padding-bottom: 10px;  }
+
+.downloadbutton{
+  border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+    font-weight: 600;    
+    background-color: rgb(0, 0, 0, 0.9);
+    color: rgb(220, 220, 220);
+    margin-bottom: 100px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    align-items: flex-end;
+}
+.downloadbutton:hover{
+  box-shadow:  5px 8px 10px rgba(0, 0, 0, 1);
+  text-decoration: none;
+  color: rgb(220, 220, 220);
+}
+.subcard:hover .card{
+  margin-top: 20px;
+  background-color: pink;
+}
+.cardt{
+  text-align: center;
+  font-weight: 400;
+  justify-content: center;
+}
+.card-title{
+  font-weight: 400;
+  margin-bottom: 20px!important;
+
+}
